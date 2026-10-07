@@ -47,21 +47,9 @@ export default function Home() {
 
   return (
     <main className="shell">
-      <section className="welcome">
-        <div className="glow" />
-        <div className="brand">
-          <div className="logo">R3X</div>
-          <div>
-            <h1>R3X</h1>
-            <p>AI COMPANION</p>
-          </div>
-        </div>
-        <h2>Hey, I&apos;m R3X.</h2>
-        <p className="tagline">Your AI companion, powered privately by Ollama.</p>
-      </section>
-
       <section className="chatCard">
         <header className="chatHeader">
+          <div className="logo">R3X</div>
           <div className="statusDot" />
           <div>
             <strong>R3X Chat</strong>
